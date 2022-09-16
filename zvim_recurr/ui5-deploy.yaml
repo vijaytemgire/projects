@@ -18,6 +18,6 @@ builder:
           client: "100"
         app:
           name: ZUI_VIM_RECURR
-          description: Vim Recurr fiori application
+          description: Vim Recurring fiori application
           package: ZVIM
           transport: FD1K901225
