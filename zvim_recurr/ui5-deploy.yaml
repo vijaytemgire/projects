@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "2.5"
+metadata:
+  name: zvim.zvimrecurr
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          url: https://AZAESLAPP1004.aesgcan.accenture.com:44340
+          client: "100"
+        app:
+          name: ZUI_VIM_RECURR
+          description: Vim Recurr fiori application
+          package: ZVIM
+          transport: FD1K901225
