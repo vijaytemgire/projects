@@ -1,24 +1,24 @@
 {
-    "fileName": "id_1663595834494_3_propertyChange",
+    "fileName": "id_1663604411195_127_propertyChange",
     "fileType": "change",
     "changeType": "propertyChange",
     "moduleName": "",
     "reference": "zvim.zvimrecurr",
     "packageName": "",
     "content": {
-        "property": "growingThreshold",
-        "newValue": 25
+        "property": "liveMode",
+        "newValue": true
     },
     "selector": {
-        "id": "zvim.zvimrecurr::sap.suite.ui.generic.template.ListReport.view.ListReport::VIMDOC--responsiveTable",
+        "id": "zvim.zvimrecurr::sap.suite.ui.generic.template.ListReport.view.ListReport::VIMDOC--listReportFilter",
         "idIsLocal": false,
-        "type": "sap.m.Table"
+        "type": "sap.ui.comp.smartfilterbar.SmartFilterBar"
     },
     "layer": "CUSTOMER_BASE",
     "texts": {},
     "namespace": "apps/zvim.zvimrecurr/changes/",
     "projectId": "",
-    "creation": 1663595834494,
+    "creation": 1663604411195,
     "originalLanguage": "",
     "support": {
         "generator": "changeUtils: SAPFioriTools",
