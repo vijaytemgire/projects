@@ -7,7 +7,7 @@
     "packageName": "",
     "content": {
         "property": "growingThreshold",
-        "newValue": 20
+        "newValue": 21
     },
     "selector": {
         "id": "zvim.zvimrecurr::sap.suite.ui.generic.template.ListReport.view.ListReport::VIMDOC--responsiveTable",
