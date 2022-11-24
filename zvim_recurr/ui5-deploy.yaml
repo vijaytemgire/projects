@@ -20,4 +20,4 @@ builder:
           name: ZUI_VIM_RECURR
           description: Vim Recurring fiori application
           package: ZVIM
-          transport: FD1K901225
+          transport: FD1K901302

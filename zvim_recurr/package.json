@@ -9,15 +9,17 @@
         "invoice"
     ],
     "main": "webapp/index.html",
-    "dependencies": {},
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.8.5"
+    },
     "devDependencies": {
-        "@ui5/cli": "^2.14.1",
-        "@sap/ux-ui5-tooling": "1",
-        "@sap/ux-specification": "UI5-1.84",
-        "eslint": "7.32.0",
         "@sap/eslint-plugin-ui5-jsdocs": "2.0.5",
-        "@sapui5/ts-types": "1.92.2",
+        "@sap/ux-specification": "UI5-1.84",
         "@sap/ux-ui5-fe-mockserver-middleware": "1",
+        "@sap/ux-ui5-tooling": "^1.8.1",
+        "@sapui5/ts-types": "1.92.2",
+        "@ui5/cli": "^2.14.14",
+        "eslint": "7.32.0",
         "rimraf": "^3.0.2",
         "ui5-task-flatten-library": "0.2.5"
     },
